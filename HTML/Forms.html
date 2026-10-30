@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="Surname">Surname</label>
+        <input type="text" id="Surname" />
+      </div>
+      <div>
+        <label for="about">About</label>
+        <textarea name="about" id="about">Type Here</textarea>
+      </div>
+      <div>
+        <label for="lang">Language</label>
+        <select name="lang" id="lang">
+          <option value="TR">TR</option>
+          <option value="ENG">ENG</option>
+          <option value="ESP">ESP</option>
+        </select>
+      </div>
+      <div>
+        <label for="bday">Birthday</label>
+        <input type="date" id="bday" />
+      </div>
+      <div>
+        <label for="mail">Mail</label>
+        <input type="email" id="mail" />
+      </div>
+      <div>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" />
+      </div>
+      <div>
+        <p>Share cookies?</p>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="cookie" />
+        <label for="no">No</label>
+        <input type="radio" id="no" name="cookie" />
+      </div>
+      <div>
+        <label for="remember">Remember me?</label>
+        <input type="checkbox" id="remember" />
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </form>
+  </body>
+</html>
