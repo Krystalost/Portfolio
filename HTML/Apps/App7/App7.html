@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+
+    <hr />
+
+    <form action="#">
+      <div>
+        <h2>Account Info</h2>
+        <table>
+          <tr>
+            <td>
+              <label for="username">Username:</label>
+            </td>
+            <td>
+              <input type="text" id="username" placeholder="Username" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mail">Mail:</label>
+            </td>
+            <td>
+              <input type="email" id="mail" placeholder="Mail" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass">Password:</label>
+            </td>
+            <td>
+              <input type="password" id="pass" placeholder="Password" />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <h2>Personal Info</h2>
+        <table>
+          <tr>
+            <td>
+              <label for="name">Name:</label>
+            </td>
+            <td>
+              <input type="text" id="name" placeholder="Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="surname">Surname:</label>
+            </td>
+            <td>
+              <input type="text" id="surname" placeholder="Surname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="country">Country:</label>
+            </td>
+            <td>
+              <select id="country">
+                <option value="TR">TR</option>
+                <option value="ENG">ENG</option>
+                <option value="ESP">ESP</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="gender">Gender:</label>
+            </td>
+            <td>
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="male" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="female" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="terms">I accept terms.</label>
+              <input type="checkbox" id="terms" required />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="Submit" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>
