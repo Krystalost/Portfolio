@@ -1,0 +1,14 @@
+section {
+  background-color: black;
+}
+#title {
+  font-size: 24px;
+  border: 2px solid red;
+}
+#title2 {
+  font-size: 14px;
+  border: 2px solid blue;
+}
+.white {
+  color: white;
+}
