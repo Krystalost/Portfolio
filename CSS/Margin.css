@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+#Lorem {
+  background-color: red;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+#Ipsum {
+  background-color: blue;
+  /* margin: 20px 25px 30px 35px; */
+  margin: auto;
+  width: 350px;
+}
