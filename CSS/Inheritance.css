@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+body {
+  font-size: 16px;
+}
+section {
+  background-color: black;
+}
+#title {
+  font-size: 24px;
+  border: 2px solid red;
+}
+#title2 {
+  font-size: 14px;
+  border: 2px solid blue;
+}
+.white {
+  color: white;
+}
+p {
+  color: red;
+  border: solid rgb(0, 165, 41);
+}
+em {
+  border: inherit;
+  color: initial;
+}
