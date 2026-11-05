@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#Lorem {
+  background-color: red;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+#Ipsum {
+  background-color: blue;
+  width: 50%;
+  padding: 10px;
+}
+.header1 {
+  background-color: black;
+}
+.nav1 {
+  display: inline-block;
+  width: calc(100% - 47px);
+  text-align: right;
+}
+.ul1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.li1 {
+  display: inline-block;
+}
