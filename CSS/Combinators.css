@@ -6,6 +6,7 @@ div > p {
 }
 div + p {
   background-color: green;
+  font-size: large;
 }
 div ~ p {
   background-color: brown;
