@@ -1,0 +1,20 @@
+p::first-line {
+  font-weight: bold;
+  color: red;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+p.lorem::first-line {
+  color: green;
+}
+p::first-letter {
+  font-size: 50px;
+}
+::selection {
+  background-color: yellow;
+}
+p::after {
+  content: "\1F4C1";
+  font-size: 40px;
+  padding: 10px;
+}
