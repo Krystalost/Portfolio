@@ -15,19 +15,19 @@ body {
   width: 50%;
   padding: 10px;
 }
-.header1 {
+.main-header {
   background-color: black;
 }
-.nav1 {
+.main-nav {
   display: inline-block;
   width: calc(100% - 47px);
   text-align: right;
 }
-.ul1 {
+.main-nav__items {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.li1 {
+.main-nav__item {
   display: inline-block;
 }
