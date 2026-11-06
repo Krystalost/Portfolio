@@ -1,0 +1,17 @@
+div p {
+  background-color: red;
+}
+div > p {
+  background-color: blue;
+}
+div + p {
+  background-color: green;
+}
+div ~ p {
+  background-color: brown;
+}
+/* Combinators
+1- Descendant Selector ( )
+2- Child Selector (>)
+3- Adjacent Sibling Selector (+)
+4- General Sibling Selector (~) */
