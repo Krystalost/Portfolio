@@ -26,3 +26,10 @@ div:hover p {
 p {
   display: none;
 }
+/* 
+  --- Pseudo-Classes (:) (State & Position) ---
+  1. :hover       (Mouse over state)
+  2. :focus       (Element focused state)
+  3. :first-child (First element in parent)
+  4. :nth-child() (Specific ordered element)
+*/

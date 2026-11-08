@@ -18,3 +18,10 @@ p::after {
   font-size: 40px;
   padding: 10px;
 }
+/* 
+  --- Pseudo-Elements (::) (Parts & Virtual Content) ---
+  1. ::before       (Inserts virtual content before)
+  2. ::after        (Inserts virtual content after)
+  3. ::first-letter (Styles the first letter)
+  4. ::selection    (Styles highlighted text)
+*/
