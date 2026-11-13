@@ -1,0 +1,14 @@
+#container {
+  background-color: red;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  float: right;
+  text-align: center;
+  color: white;
+}
+#boxx {
+  float: left;
+}
