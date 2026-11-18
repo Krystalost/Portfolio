@@ -1,0 +1,157 @@
+:root {
+  color: #0f172a;
+}
+
+* {
+  color: inherit;
+}
+
+body {
+  color: #1e293b;
+}
+
+#a {
+  color: #1e293b;
+}
+
+.b {
+  color: #1e293b;
+}
+
+#c {
+  color: #0f172a;
+}
+
+.d {
+  color: #334155;
+}
+
+.e {
+  color: #1e293b;
+}
+
+#f {
+  color: #334155;
+}
+
+.g {
+  color: #475569;
+}
+
+#i {
+  color: #64748b;
+}
+
+.j {
+  color: #64748b;
+}
+
+h1,
+h2,
+h3 {
+  color: #0f172a;
+}
+
+article p {
+  color: #334155;
+}
+
+main > section {
+  color: #1e293b;
+}
+
+p + hr {
+  color: #cbd5e1;
+}
+
+h2 ~ div {
+  color: #334155;
+}
+
+[data-a] {
+  color: #1e293b;
+}
+
+[data-a="1"] {
+  color: #334155;
+}
+
+[href^="#"] {
+  color: #2563eb;
+}
+
+[src$="#"] {
+  color: #64748b;
+}
+
+[title*="Lorem"] {
+  color: #0f172a;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+input:focus {
+  color: #0f172a;
+}
+
+button:active {
+  color: #1e40af;
+}
+
+a:visited {
+  color: #4f46e5;
+}
+
+button:disabled {
+  color: #94a3b8;
+}
+
+input:checked {
+  color: #2563eb;
+}
+
+input:required {
+  color: #0f172a;
+}
+
+li:first-child {
+  color: #334155;
+}
+
+li:last-child {
+  color: #475569;
+}
+
+section:nth-child(1) {
+  color: #1e293b;
+}
+
+p:not([hidden]) {
+  color: #334155;
+}
+
+p::before {
+  color: #64748b;
+}
+
+p::after {
+  color: #64748b;
+}
+
+p::first-letter {
+  color: #0f172a;
+}
+
+p::first-line {
+  color: #1e293b;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+::selection {
+  color: #2563eb;
+}
