@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="#" target="_self" />
+    <title>Attributes</title>
+    <link rel="stylesheet" href="#" />
+    <style></style>
+    <script src="#"></script>
+    <noscript>
+      <p>Lorem ipsum</p>
+    </noscript>
+  </head>
+  <body id="top" class="page-body">
+    <header id="main-header" class="site-header">
+      <hgroup>
+        <h1 title="Main Heading">Lorem Ipsum</h1>
+        <p>Dolor sit amet</p>
+      </hgroup>
+      <nav>
+        <menu>
+          <li><a href="#" target="_blank" rel="noopener">Link</a></li>
+        </menu>
+      </nav>
+      <search>
+        <form action="#" method="get">
+          <label for="q">Search:</label>
+          <input
+            type="search"
+            id="q"
+            name="q"
+            value=""
+            placeholder="Search..."
+            required
+          />
+          <button type="submit">Go</button>
+        </form>
+      </search>
+    </header>
+
+    <main>
+      <section class="content-section" data-section="typography">
+        <article id="typo-article" class="post" data-id="1">
+          <header>
+            <h2>Typography</h2>
+          </header>
+          <div style="margin: 0">
+            <p>
+              Lorem ipsum <br />
+              dolor sit amet.
+            </p>
+            <hr />
+            <blockquote>
+              <p>Aenean commodo ligula.</p>
+              <footer><cite>Author</cite></footer>
+            </blockquote>
+            <pre><code>const init = true;</code></pre>
+
+            <p>
+              <strong>Strong</strong>, <b>Bold</b>, <em>Emphasized</em>,
+              <i>Italic</i>, <mark>Mark</mark>, <small>Small</small>,
+              <del>Del</del>, <ins>Ins</ins>, <s>Strike</s>, <u>Underline</u>.
+            </p>
+
+            <p>
+              H<sub>2</sub>O, E=mc<sup>2</sup>,
+              <abbr title="As Soon As Possible">ASAP</abbr>, <q>Quote</q>,
+              <dfn title="Definition Term">Term</dfn>.
+            </p>
+
+            <p>
+              <kbd>Ctrl</kbd>, <samp>Error</samp>, <var>x</var>,
+              <time>2026</time>, <data value="1">Data</data>.
+            </p>
+
+            <p><bdi>User</bdi>, <bdo dir="rtl">Text</bdo>, Word<wbr />Break.</p>
+
+            <p>
+              <ruby>漢<rp>(</rp><rt>Kan</rt><rp>)</rp></ruby>
+            </p>
+
+            <address>Address Line</address>
+            <span hidden>Span</span>
+          </div>
+        </article>
+
+        <article class="post" data-id="2">
+          <h3>Lists</h3>
+          <ul>
+            <li>Item</li>
+          </ul>
+          <ol>
+            <li>Item</li>
+          </ol>
+          <dl>
+            <dt>Term</dt>
+            <dd>Definition</dd>
+          </dl>
+        </article>
+      </section>
+
+      <section class="content-section" data-section="media">
+        <h2>Media</h2>
+        <figure>
+          <picture>
+            <source srcset="#" />
+            <img src="#" alt="Img" width="300" height="200" usemap="#m" />
+          </picture>
+          <figcaption>Caption</figcaption>
+        </figure>
+
+        <map name="m">
+          <area
+            shape="rect"
+            coords="0,0,10,10"
+            href="#"
+            alt="Area"
+            target="_blank"
+            rel="noopener"
+          />
+        </map>
+
+        <div>
+          <audio>
+            <source src="#" />
+            <track src="#" />
+          </audio>
+        </div>
+
+        <div>
+          <video width="400" height="300">
+            <source src="#" />
+            <track src="#" />
+          </video>
+        </div>
+
+        <div>
+          <svg width="100" height="100"></svg>
+          <canvas width="100" height="100"></canvas>
+        </div>
+
+        <div>
+          <iframe src="#" width="300" height="200" title="Iframe"></iframe>
+          <embed src="#" width="300" height="200" />
+          <object data="#" width="300" height="200"></object>
+        </div>
+      </section>
+
+      <section class="content-section" data-section="tables">
+        <h2>Tables</h2>
+        <table>
+          <caption>
+            Caption
+          </caption>
+          <colgroup>
+            <col />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Head</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Foot</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section class="content-section" data-section="forms">
+        <h2>Forms</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Legend</legend>
+
+            <label for="u">User:</label>
+            <input
+              type="text"
+              id="u"
+              name="username"
+              value="Admin"
+              placeholder="Enter username"
+              list="d"
+              required
+            />
+            <datalist id="d">
+              <option value="A"></option>
+            </datalist>
+
+            <textarea
+              name="message"
+              placeholder="Write a message..."
+            ></textarea>
+
+            <select name="options">
+              <optgroup label="Group">
+                <option value="opt1">Option</option>
+              </optgroup>
+            </select>
+
+            <output name="result" for="u">Output</output>
+
+            <button type="button" disabled>Button</button>
+          </fieldset>
+        </form>
+
+        <article>
+          <progress value="1"></progress>
+          <meter value="1"></meter>
+        </article>
+
+        <article>
+          <details>
+            <summary>Summary</summary>
+            <p>Details</p>
+          </details>
+
+          <dialog>
+            <p>Dialog</p>
+          </dialog>
+
+          <template>
+            <slot name="custom-slot"></slot>
+          </template>
+        </article>
+      </section>
+    </main>
+
+    <aside class="sidebar" hidden>
+      <h2>Aside</h2>
+      <p>Lorem ipsum</p>
+    </aside>
+
+    <footer id="main-footer" class="site-footer">
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>
