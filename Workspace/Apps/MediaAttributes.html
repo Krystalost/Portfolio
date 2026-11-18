@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="#" target="_self" />
+    <title>Media Attributes</title>
+    <link rel="stylesheet" href="#" />
+    <style></style>
+    <script src="#" defer async></script>
+    <noscript>
+      <p>Lorem ipsum</p>
+    </noscript>
+  </head>
+  <body id="a" class="b">
+    <header id="c" class="d">
+      <hgroup>
+        <h1 title="Lorem">Lorem Ipsum</h1>
+        <p>Dolor sit amet</p>
+      </hgroup>
+      <nav>
+        <menu>
+          <li><a href="#" target="_self" rel="noopener">Lorem</a></li>
+        </menu>
+      </nav>
+      <search>
+        <form action="#" method="get" onsubmit="return false;">
+          <label for="q">Lorem:</label>
+          <input
+            type="search"
+            id="q"
+            name="q"
+            value=""
+            placeholder="Lorem..."
+            required
+          />
+          <button type="submit">Lorem</button>
+        </form>
+      </search>
+    </header>
+
+    <main>
+      <section class="e" data-a="1">
+        <article id="f" class="g" data-b="1">
+          <header>
+            <h2>Lorem</h2>
+          </header>
+          <div style="margin: 0">
+            <p>
+              Lorem ipsum <br />
+              dolor sit amet.
+            </p>
+            <hr />
+            <blockquote>
+              <p>Aenean commodo ligula.</p>
+              <footer><cite>Lorem</cite></footer>
+            </blockquote>
+            <pre><code>Lorem</code></pre>
+
+            <p>
+              <strong>Lorem</strong>, <b>Lorem</b>, <em>Lorem</em>,
+              <i>Lorem</i>, <mark>Lorem</mark>, <small>Lorem</small>,
+              <del>Lorem</del>, <ins>Lorem</ins>, <s>Lorem</s>, <u>Lorem</u>.
+            </p>
+
+            <p>
+              Lorem<sub>2</sub>, Lorem<sup>2</sup>,
+              <abbr title="Lorem">LRM</abbr>, <q>Lorem</q>,
+              <dfn title="Lorem">Lorem</dfn>.
+            </p>
+
+            <p>
+              <kbd>Lorem</kbd>, <samp>Lorem</samp>, <var>x</var>,
+              <time>2026</time>, <data value="1">Lorem</data>.
+            </p>
+
+            <p>
+              <bdi>Lorem</bdi>, <bdo dir="rtl">Lorem</bdo>, Lorem<wbr />Ipsum.
+            </p>
+
+            <p>
+              <ruby>漢<rp>(</rp><rt>Kan</rt><rp>)</rp></ruby>
+            </p>
+
+            <address>Lorem ipsum</address>
+            <span hidden>Lorem</span>
+          </div>
+        </article>
+
+        <article class="g" data-b="2">
+          <h3>Lorem</h3>
+          <ul>
+            <li>Lorem</li>
+          </ul>
+          <ol start="1" reversed>
+            <li>Lorem</li>
+          </ol>
+          <dl>
+            <dt>Lorem</dt>
+            <dd>Lorem ipsum</dd>
+          </dl>
+        </article>
+      </section>
+
+      <section class="e" data-a="2">
+        <h2>Lorem</h2>
+        <figure>
+          <picture>
+            <source srcset="#" />
+            <img
+              src="#"
+              alt="Lorem"
+              width="300"
+              height="200"
+              usemap="#m"
+              loading="lazy"
+            />
+          </picture>
+          <figcaption>Lorem</figcaption>
+        </figure>
+
+        <map name="m">
+          <area
+            shape="rect"
+            coords="0,0,10,10"
+            href="#"
+            alt="Lorem"
+            rel="noopener"
+            download
+          />
+        </map>
+
+        <div>
+          <audio controls preload="none">
+            <source src="#" />
+            <track src="#" />
+          </audio>
+        </div>
+
+        <div>
+          <video width="400" height="300" autoplay muted loop poster="#">
+            <source src="#" />
+            <track src="#" />
+          </video>
+        </div>
+
+        <div>
+          <svg width="100" height="100"></svg>
+          <canvas width="100" height="100"></canvas>
+        </div>
+
+        <div>
+          <iframe
+            src="#"
+            width="300"
+            height="200"
+            title="Lorem"
+            sandbox
+          ></iframe>
+          <embed src="#" width="300" height="200" />
+          <object data="#" width="300" height="200"></object>
+        </div>
+      </section>
+
+      <section class="e" data-a="3">
+        <h2>Lorem</h2>
+        <table>
+          <caption>
+            Lorem
+          </caption>
+          <colgroup>
+            <col />
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">Lorem</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="1" rowspan="1">Lorem</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Lorem</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section class="e" data-a="4">
+        <h2>Lorem</h2>
+        <form
+          action="#"
+          method="post"
+          enctype="multipart/form-data"
+          autocomplete="off"
+          novalidate
+          onsubmit="return false;"
+        >
+          <fieldset>
+            <legend>Lorem</legend>
+
+            <label for="u">Lorem:</label>
+            <input
+              type="text"
+              id="u"
+              name="u"
+              value=""
+              placeholder="Lorem..."
+              list="d"
+              required
+            />
+            <datalist id="d">
+              <option value="Lorem"></option>
+            </datalist>
+
+            <input type="password" minlength="1" maxlength="9" />
+            <input type="email" autofocus />
+            <input type="tel" pattern="[0-9]+" />
+            <input type="url" readonly />
+            <input type="number" min="1" max="9" step="1" />
+            <input type="range" />
+            <input type="date" />
+            <input type="time" />
+            <input type="datetime-local" />
+            <input type="month" />
+            <input type="week" />
+            <input type="checkbox" checked />
+            <input type="radio" />
+            <input type="file" accept="image/*" multiple />
+            <input type="color" />
+            <input type="hidden" />
+            <input type="submit" />
+            <input type="reset" />
+            <input type="button" />
+            <input type="image" src="#" alt="Lorem" />
+
+            <textarea
+              name="m"
+              placeholder="Lorem..."
+              rows="3"
+              cols="20"
+            ></textarea>
+
+            <select name="o">
+              <optgroup label="Lorem">
+                <option value="1" selected>Lorem</option>
+              </optgroup>
+            </select>
+
+            <output name="r" for="u">Lorem</output>
+
+            <button type="button" disabled>Lorem</button>
+          </fieldset>
+        </form>
+
+        <article>
+          <progress value="1"></progress>
+          <meter value="1"></meter>
+        </article>
+
+        <article>
+          <details open>
+            <summary>Lorem</summary>
+            <p>Lorem ipsum</p>
+          </details>
+
+          <dialog>
+            <p>Lorem ipsum</p>
+          </dialog>
+
+          <template>
+            <slot name="s"></slot>
+          </template>
+        </article>
+      </section>
+    </main>
+
+    <aside class="h" hidden>
+      <h2>Lorem</h2>
+      <p>Lorem ipsum</p>
+    </aside>
+
+    <footer id="i" class="j">
+      <p>Lorem</p>
+    </footer>
+  </body>
+</html>
