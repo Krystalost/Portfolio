@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+header,
+footer {
+  background-color: red;
+  color: black;
+  padding: 15px;
+}
+h1 {
+  margin: 0;
+}
+.col {
+  float: left;
+  padding: 15px 15px 15px 0;
+}
+.menu {
+  width: 25%;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(59, 25, 254);
+}
+.menu li:hover {
+  cursor: pointer;
+  background-color: rgb(124, 204, 250);
+}
+.content {
+  width: 75%;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
