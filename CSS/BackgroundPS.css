@@ -1,0 +1,29 @@
+/* html {
+  height: 100%;
+} */
+body {
+  /* height: 100%; */
+  margin: 0;
+}
+#header {
+  position: relative;
+  background-image:
+    /* linear-gradient(to bottom right, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.092)), */ url(manhattan.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+}
+#header h1 {
+  margin: 0;
+  position: absolute;
+  font-size: 50px;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
