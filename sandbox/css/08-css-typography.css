@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4a4a4a;
+  background-color: #f9e9d4;
+  line-height: 1.6;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-size: 2rem;
+}
+.lead {
+  font-style: italic;
+  font-weight: 700;
+}
+.unit-box {
+  font-size: 24px;
+}
+.text-px {
+  font-size: 16px;
+}
+.text-rem {
+  font-size: 1.5rem;
+}
+.text-em {
+  font-size: 1.5em;
+}
+.plain-link {
+  text-decoration: none;
+  color: rgba(250, 8, 8, 0.896);
+}
+
+/*
+CSS Units & Typography Reference:
+-----------------------------------------------------------------------
+Birim / Ozellik | Referans / Kullanim          | Kritik Kural
+----------------|------------------------------|-----------------------------------------
+px              | Sabit piksel                 | Tarayici yazi ayarina gore olceklenmez
+rem (Root em)   | <html> font-size (16px)      | Ic ice kutularda sabit kalir; font standardi
+em              | Ebeveyn (parent) font-size   | Ebeveyn buyudukce katlanir (ic ice riskli)
+line-height     | Birimsiz (orn: 1.5 - 1.6)    | Her elemanin kendi font-size'i ile carpilir
+font-weight     | Birimsiz 100-900 (400 / 700) | px/rem/em almaz, birim yazilirsa gecersizdir
+font-family     | Fallback stack (virgullu)    | Soldan saga arar; sona genel aile (sans-serif)
+text-transform  | uppercase / lowercase / cap. | HTML metnini bozmadan gorsel harf donusumu
+letter-spacing  | Kucuk deger (0.05em / 2px)   | Buyuk harfli basliklarda okunakliligi artirir
+*/
