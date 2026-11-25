@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  color: red;
+  border: 2px solid black;
+}
+.box p {
+  color: blue;
+}
+.note {
+  color: green;
+}
+#priority-text {
+  color: pink;
+}
+p {
+  color: black;
+}
+
+/*
+CSS Cascade & Specificity Reference (Yuksekten Dusuge):
+-----------------------------------------------------------------------
+1. !important        -> Tum normal kurallari ezer (sadece acil/son care)
+2. Inline Style      -> style="..."            | (1, 0, 0, 0)
+3. ID                -> #id                    | (0, 1, 0, 0)
+4. Class / Attr / :  -> .class, [type], :hover | (0, 0, 1, 0)
+5. Element / ::      -> p, h1, ::before        | (0, 0, 0, 1)
+6. Universal / Miras -> *, inherited, defaults | (0, 0, 0, 0)
+
+Kural 1: Puanlar toplanmaz, soldan saga sutun sutun karsilastirilir (1 ID > 20 Class).
+Kural 2: Puanlar esitse CSS dosyasinda EN ALTTA yazan kazanir (Cascade).
+Kural 3: Tipografi (color, font-*) miras kalir; kutu (border, margin, padding) kalmaz.
+*/
