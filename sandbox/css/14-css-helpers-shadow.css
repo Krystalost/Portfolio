@@ -1,0 +1,61 @@
+/*
+  Practice 14: Helper Classes & box-shadow
+  - Helper classes her zaman dosyanin en altinda tutulur (Cascade geregi temel siniflari ezebilmesi icin).
+  - box-shadow sirasi: offset-x offset-y blur-radius spread-radius color;
+    * offset-x ve offset-y ZORUNLUDUR (tek sayi yazilirsa kural gecersiz sayilir).
+    * blur-radius ve spread-radius opsiyoneldir.
+  - transition temel kurala yazilir; :hover icinde yalnizca degisen ozellik (box-shadow) belirtilir.
+  - Font Awesome ikonlari font glifi oldugu icin width/height degil font-size ve color ile boyutlandirilir.
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  color: rgb(172, 164, 164);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.shadow-sm {
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.146);
+  transition: 0.4s;
+}
+
+.shadow-lg {
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.467);
+  transition: 0.8s;
+}
+
+.shadow-sm:hover {
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.512);
+}
+
+.shadow-lg:hover {
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.899);
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice 14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="14-css-helpers-shadow.css" />
+  </head>
+
+  <!-- Practice 14: Helper Classes, box-shadow, Google Fonts & Font Awesome
+  - <link> sirasi: Google Fonts ve Font Awesome ustte, kendi CSS dosyamiz en altta.
+  - Dekoratif <i> ikonlarina erisilebilirlik icin aria-hidden="true" eklenir.
+  - Kart yapisi: ortak .card temel sinifi + boslukla eklenen helper classes (.rounded, .mt-20, .shadow-sm/.shadow-lg). -->
+
+  <body>
+    <h1>Heading 1</h1>
+    <section>
+      <article class="card text-center rounded mt-20 shadow-sm">
+        <i aria-hidden="true" class="fa-solid fa-font-awesome icon"></i>
+        <h2>Card 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          molestiae quis aliquid minima ea dolorum totam, perspiciatis qui
+          possimus odio vel debitis, blanditiis vero eveniet asperiores facilis.
+          Nobis, totam possimus.
+        </p>
+        <button type="button">Action 1</button>
+      </article>
+      <article class="card text-center rounded mt-20 shadow-lg">
+        <i aria-hidden="true" class="fa-solid fa-circle-info icon"></i>
+        <h2>Card 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni numquam
+          officia, aliquid obcaecati tempora facere! Architecto tempore debitis
+          cumque doloremque? Non necessitatibus modi nobis fugit recusandae
+          architecto, neque officia ea.
+        </p>
+        <button type="button">Action 2</button>
+      </article>
+    </section>
+  </body>
+</html>
