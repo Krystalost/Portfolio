@@ -1,0 +1,57 @@
+/* ==========================================================================
+   CSS FLOAT & CLEAR - Hızlı Başvuru
+   ==========================================================================
+   1) float (left | right | none):
+      Elemanı normal sayfa akışından çıkarıp sola veya sağa yaslar; metin ve
+      diğer içerikler etrafından akar. (Modern CSS'te sayfa iskeleti için
+      değil, yalnızca metin sarma ve eski projeleri okuma için kullanılır.)
+
+   2) Kapsayıcı Çökmesi (Parent Collapse):
+      Bir kapsayıcının içindeki tüm çocuklar float ise kapsayıcı içeride
+      normal akışta eleman görmez ve yüksekliği 0px'e çöker.
+
+   3) clear (left | right | both):
+      Elemanın kendinden önceki yüzen (float) kutuların altına inmesini
+      sağlar. Kapsayıcı dışındaki bir elemana verilmesi çökme sorununu çözmez.
+
+   4) Clearfix Yöntemi (.kapsayici::after):
+      Kapsayıcının içine en sona sanal bir blok ekleyip çökmesini engeller:
+      content: ""; display: block; clear: both;
+      (Not: Clearfix yüzen çocuklara değil, her zaman KAPSAYICIYA verilir.)
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+.float-box {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.box-row {
+  border: 3px solid black;
+}
+
+.box-row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-box {
+  float: left;
+  height: 200px;
+  border: 2px solid red;
+  background-color: blue;
+  width: 33.33%;
+}
+
+.after-float {
+  clear: both;
+}
